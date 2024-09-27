@@ -6,7 +6,7 @@
             <class name="Day03._02_Intro"></class>
         </classes>
     </test>
-
+   <!-- Çalışmasını istenilen testler çalıştırılır-->
     <test name="My Test 2">
         <classes>
             <class name="Day03._03_Intro"></class>

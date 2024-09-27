@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test 1">
+        <parameter name="searchText" value="mac"></parameter>
+
+        <classes>
+            <class name="Day04._03_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+    <test name="My Test 2">
+        <parameter name="searchText" value="samsung"></parameter>
+
+        <classes>
+            <class name="Day04._03_SearchFunctionality"></class>
+        </classes>
+    </test>
+
+</suite>

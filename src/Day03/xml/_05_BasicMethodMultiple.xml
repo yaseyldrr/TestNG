@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test 1">
+        <classes>
+            <class name="Day03._02_Intro">
+                <methods>
+                    <include name="Intro02_Test1" />
+                    <!-- Çalışmasını istenilen metodlar çalıştırılır-->
+                </methods>
+            </class>
+            <class name="Day03._03_Intro">
+                <methods>
+                    <include name="Intro03_Test2" />
+                    <!-- Çalışmasını istenilen metodlar çalıştırılır-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

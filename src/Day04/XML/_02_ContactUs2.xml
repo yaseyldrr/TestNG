@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test 1">
+        <parameter name="message" value="Hello Testing World 2"></parameter>
+
+        <classes>
+            <class name="Day04._02_ContactUsParameter"></class>
+        </classes>
+    </test>
+
+    <test name="My Test 2">
+        <parameter name="message" value="The most important functioanlity of TestNG is XML File "></parameter>
+
+        <classes>
+            <class name="Day04._02_ContactUsParameter"></class>
+        </classes>
+    </test>
+
+</suite>

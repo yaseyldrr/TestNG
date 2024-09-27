@@ -36,10 +36,10 @@ public class _02_Intro {
     public void BeforeMethod(){ System.out.println("Before Method"); }
 
     @Test
-    public void Intro03_Test1(){ System.out.println("_03_Intro Test 1"); }
+    public void Intro02_Test1(){ System.out.println("_03_Intro Test 1"); }
 
     @Test
-    public void Intro03_Test2(){ System.out.println("_03_Intro Test 2"); }
+    public void Intro02_Test2(){ System.out.println("_03_Intro Test 2"); }
 
     @AfterMethod
     public void AfterMethod(){ System.out.println("After Method"); }

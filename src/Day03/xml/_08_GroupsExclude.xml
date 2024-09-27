@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test 1">
+
+        <!--çalışacak classların yazıldığı bölüm-->
+        <classes>
+            <class name="Day03._04_Groups"></class>
+        </classes>
+
+        <!-- hangi gruplar çalıştırılacak-->
+        <groups>
+            <run>
+                <exclude name="Smoke Test"></exclude>
+            </run>
+        </groups>
+
+    </test>
+</suite>
+
+        <!-- Smoke Test harici çalıştır-->
