@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit" parallel="tests" thread-count="2">
+
+    <test name="My Test 1">
+        <parameter name="browserType" value="chrome"></parameter>
+
+        <classes>
+            <class name="Day05._04_Question_2"></class>
+        </classes>
+    </test>
+
+    <test name="My Test 2">
+        <parameter name="browserType" value="edge"></parameter>
+
+        <classes>
+            <class name="Day05._04_Question_2"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test 1">
+        <parameter name="browserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="Gun05._04_Soru_2"></class>
+        </classes>
+    </test>
+
+    <test name="My Test 2">
+        <parameter name="browserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="Gun05._04_Soru_2"></class>
+        </classes>
+    </test>
+
+</suite>
