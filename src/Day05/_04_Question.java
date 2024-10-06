@@ -31,7 +31,7 @@ public class _04_Question extends BaseDriver {
         for(WebElement e : captions)
             Assert.assertTrue(e.getText().toLowerCase().contains(text.toLowerCase()),
                     "Not found");
-        Tools.Bekle(1);
+        Tools.Wait(1);
     }
 
 

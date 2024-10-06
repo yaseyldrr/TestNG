@@ -1,6 +1,5 @@
 package Utility;
 
-import Utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -46,13 +45,13 @@ public class BaseDriverParameter {
     public void KapanisIslemleri(){
        // System.out.println("Kapanis işlemleri yapılıyor");
 
-        Tools.Bekle(3);
+        Tools.Wait(3);
         driver.quit();
     }
 
     public void Login() {
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         WebElement email=driver.findElement(By.id("input-email"));
         email.sendKeys("testng1@gmail.com");

@@ -27,23 +27,23 @@ public class BaseDriver {
 
         WebElement myAcc = driver.findElement(By.xpath("//*[@id='top-links']/ul/li[2]/a/span[1]"));
         myAcc.click();
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         WebElement login = driver.findElement(By.xpath("//*[@id='top-links']/ul/li[2]/ul/li[2]/a"));
         login.click();
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         WebElement email = driver.findElement(By.id("input-email"));
         email.sendKeys("yasetest1@gmail.com");
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         WebElement password = driver.findElement(By.id("input-password"));
         password.sendKeys("messi");
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         WebElement loginButton = driver.findElement(By.xpath("//*[@id='content']/div/div[2]/div/form/input"));
         loginButton.click();
-        Tools.Bekle(2);
+        Tools.Wait(2);
     }
      @AfterClass
     public void TearDown() {

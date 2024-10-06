@@ -21,16 +21,16 @@ public class _01_Question extends BaseDriver {
         WebElement name = driver.findElement(By.name("firstname"));
         name.clear();
         name.sendKeys("aaa");
-        Tools.Bekle(1);
+        Tools.Wait(1);
 
         WebElement lastname = driver.findElement(By.name("lastname"));
         lastname.clear();
         lastname.sendKeys("bbb");
-        Tools.Bekle(1);
+        Tools.Wait(1);
 
         WebElement cont = driver.findElement(By.xpath("//*[@id='content']/form/div/div[2]/input"));
         cont.click();
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         Tools.SuccessMessageValidation();
     }

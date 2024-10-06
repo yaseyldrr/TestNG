@@ -26,7 +26,7 @@ public class _01_ContactUs extends BaseDriver {
 
         WebElement submitBtn=driver.findElement(By.cssSelector("[type='submit']"));
         submitBtn.click();
-        Tools.Bekle(2);
+        Tools.Wait(2);
 
         Assert.assertTrue(driver.getCurrentUrl().contains("success"), "Transaction is incorrect.");
     }

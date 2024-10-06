@@ -8,6 +8,6 @@ public class _05_BaseDriverTest extends BaseDriver {
     @Test
     public void Test1() {
         driver.get("https://www.google.com/");
-        Tools.Bekle(2);
+        Tools.Wait(2);
     }
 }

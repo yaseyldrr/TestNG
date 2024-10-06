@@ -5,7 +5,7 @@
         <parameter name="browserTipi" value="chrome"></parameter>
 
         <classes>
-            <class name="Gun05._04_Soru_2"></class>
+            <class name="Day05._04_Question_2"></class>
         </classes>
     </test>
 
@@ -13,7 +13,7 @@
         <parameter name="browserTipi" value="edge"></parameter>
 
         <classes>
-            <class name="Gun05._04_Soru_2"></class>
+            <class name="Day05._04_Question_2"></class>
         </classes>
     </test>
 
