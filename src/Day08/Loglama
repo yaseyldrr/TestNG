@@ -1,0 +1,27 @@
+Loglama : program çalışırken, istenilen noktalardaki akışa ilşkin notlar ve bilgilerdir.
+
+Nerelere yazılabilir ?
+-Ekrana yazdırılabilir
+-Dosya  yazdırılabilir
+-her ikisine de olabilir
+
+Log4j (v1) -> Java için loglama -> Log for java -> apache serbest yazılım geliştirme grubu
+JUL        -> Java için loglama -> Java Grubu
+Slf4J      -> Simple Logging Facade for Java -> Loglama
+Log4J (V2) -> Java için loglama -> Log for java -> apache serbest yazılım geliştirme grubu
+
+org.apache.logging.log4j:log4j-api:2.20.0
+org.apache.logging.log4j:log4j-core:2.20.0
+
+
+try{
+  Log.info(işlem başladı)
+
+
+
+  log.info(işlem tamamlandı)
+}
+catch{
+  log.warn(şu kullanıca hata oldu+ex.message)
+
+}
